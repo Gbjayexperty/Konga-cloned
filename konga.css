@@ -1,105 +1,33 @@
-.firstdiv {
-    height: 76px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.second-div {
-    height: 55px;
-    width: 1505px;
-    background-color: rgb(251, 251, 252);
-
+.first-image {
+    height: 60px;
+    width: 100%;
 }
 
-.kongatravel {
-    width: 100px;
-    padding: 20px;
-    
-}
-
-.kongapay {
-    width: 100px;
-    padding: 20px;
-    
-}
-
-.kongacorporate {
-    width: 100px;
-    padding: 20px;
-
-}
-
-.kongahealth {
-    width: 100px;
-    padding: 20px;
-
-}
-
-.kongaexpress {
-    width: 100px;
-    padding: 20px;
-
-}
-
-.kongagroceries {
-    width: 100px;
-    padding: 20px;
-}
-
-.kongatv {
-    width: 100px;
-    padding: 20px;
-    margin-left: 100px;
-    display: ;
-}
-
-.konganow {
-    width: 110px;
-    padding: 20px;
-    margin-left: 150px;
-}
-
-.third-div {
-    height: 65px;
-    width: 1505px;
-    background-color: #ed017f;
+.second-layout {
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
     display: flex;
-    gap: 20px;
-    align-items: center;
-    
-    
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-wrap: wrap; 
     
 }
 
-
-.konga-logo {
+.icon-item {
     display: flex;
-    width: 140px;
-    margin-left: 20px;
-
-    
-}
-
-.store-locator {
-    display: flex;
-    gap: 20px;
-    
-   
-}
-
-.sell-onkonga {
-    display: flex;
-
-}
-
-.dropdown-menu {
-    display: none;
     width: 100px;
-    position: absolute;
     
-
+     
+    
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    background: whitesmoke;
-    
+.picture-only {
+    width: 100%;
 }
