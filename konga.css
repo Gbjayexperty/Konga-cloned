@@ -141,3 +141,40 @@
     align-items: center;
     padding-left: 20px;
 }
+
+/* .fourth-layout {
+    width: 100%;
+    height: 60px;
+    background-color: #d7b7c6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .categories-item {
+    display: inline-flex;
+    justify-content: space-between;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;   
+    align-content: center;
+    align-items: center;
+} */
+
+.fifth-layout {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    background-color: #a2064d;
+    color: white;
+
+}
+
+.accessories {
+    display: flex;
+    gap: 8px;
+}
