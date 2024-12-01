@@ -178,3 +178,54 @@
     display: flex;
     gap: 8px;
 }
+
+.sisth-layout {
+    display: flex;
+    width: 100%;
+    height: 26rem;
+    justify-content: space-around;
+    background-color: rgba(248, 246, 244, 0);
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.alone-div {
+    display: flex;
+    min-width: 60%;
+    height: 24.5rem;
+    background-color: aquamarine;
+    align-self: center;
+    /* border-radius: 5px; */
+    padding: 5px;
+}
+
+.parentof-four {
+    min-width: 35%;
+    height: 24.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: antiquewhite;
+    align-self: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.parentof-four .four-div {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    /* padding: 19px; */
+    margin: none;
+    aspect-ratio: 1;
+    overflow: hidden;
+    
+}
+
+.konga-access {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
